@@ -1,8 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import a from './package/tt';
 
 function App() {
+  a({name: 'world'});
   return (
     <div className="App">
       <header className="App-header">
