@@ -5,6 +5,7 @@ import a from './package/tt';
 
 function App() {
   a({name: 'world'});
+  console.log('INININ')
   return (
     <div className="App">
       <header className="App-header">
